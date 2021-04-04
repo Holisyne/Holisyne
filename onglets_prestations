@@ -1,0 +1,241 @@
+<html> /*Necessary to implement this code on the Wiki page*/
+
+<style>
+          /* Style the tab */
+          .tab {
+            overflow: hidden;
+            background-color: #2669CA;
+            border-radius: 8px 8px 0px 0px;
+          }
+
+          /* Style the buttons that are used to open the tab content */
+          .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 14px 16px;
+            transition: 0.3s;
+            border-radius: 8px 8px 0px 0px;
+          }
+
+          /* Change background color of buttons on hover */
+          .tab button:hover {
+            background-color: #1954A9;
+          }
+
+          /* Create an active/current tablink class */
+          .tab button.active {
+            background-color: #1954A9;
+            border-radius: 8px 8px 0px 0px;
+          }
+
+          /* Style the tab content */
+          .tabcontent {
+            display: none;
+            padding: 6px 12px;
+            border-top: none;
+            overflow:hidden;
+            border: solid 2px #1954A9;
+            height: 160px
+            }
+
+            /*Zoom effect on hover found on internet --> wpRock.fr */
+            .wprock-img-zoom-hover .wprock-img-zoom {
+                overflow: hidden;
+                position: relative; 
+            }
+            .wprock-img-zoom-hover .wprock-img-zoom img {
+                max-width: 100%;
+                -moz-transition: all 0.8s;
+                -webkit-transition: all 0.8s;
+                transition: all 0.8s;
+            }
+            .wprock-img-zoom-hover .wprock-img-zoom * {
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            .wprock-img-zoom-hover:hover .wprock-img-zoom img {
+                -moz-transform: scale(1.26);
+                -webkit-transform: scale(1.26);
+                transform: scale(1.26);
+            }
+            .container {
+                column-count: 4;
+                text-align: center;
+                justify-content: center;
+            }
+            .container1 {
+                column-count: 3;
+                text-align: center;
+                justify-content: center;
+            }
+            .container2 {
+                column-count: 2;
+                text-align: center;
+                justify-content: center;
+            }
+            .container3 {
+                column-count: 1;
+                text-align: center;
+                justify-content: center;
+            }
+            .p1 {
+                font-weight: bold;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+             }
+        </style>
+
+
+<!-- Tab links -->
+
+<div class="tab">
+  <button class="tablinks" style="color: white ; font-weight: bold" onclick="openCity(event, 'Lancersonprojet')">Lancer son projet </button>
+  <button class="tablinks" style="color: white ; font-weight: bold" onclick="openCity(event, 'Communiquerplusefficacement')">Communiquer plus efficacement</button>
+  <button class="tablinks" style="color: white ; font-weight: bold" onclick="openCity(event, 'Ameliorersonexperienceclient')">Améliorer son expérience client</button>
+  <button class="tablinks" style="color: white ; font-weight: bold" onclick="openCity(event, 'Comprendresescollaborateurs')">Comprendre ses collaborateurs</button>
+  <button class="tablinks" style="color: white ; font-weight: bold" onclick="openCity(event, 'Suivresonimagedemarque')">Suivre son image de marque</button>
+</div>
+
+
+<!-- Tab content -->
+
+<div id="Lancersonprojet" class="tabcontent">
+<div class="container">
+        <div class="wprock-img-zoom-hover" style="margin: 0% 25%">
+            <div class="wprock-img-zoom">
+                <a href="https://wiki.skemaconseil.fr/doku.php?id=etude_de_marche" title="Etude de marché">
+	            <img alt="Etude de marché" src="/lib/exe/fetch.php?w=90&amp;h=90&amp;t=1617290882&amp;tok=ad6a59&amp;media=etude_de_marche.png" width="120" height="120"></a>
+                <div class="p1"> Etude de marché </div>
+            </div>
+        </div>
+        <div class="wprock-img-zoom-hover" style="margin:0% 25%">
+            <div class="wprock-img-zoom">
+                <a href="https://wiki.skemaconseil.fr/doku.php?id=business_plan" title="Business plan">
+	            <img alt="Business plan" src="/lib/exe/fetch.php?w=90&amp;h=90&amp;t=1617304474&amp;tok=1ef6f1&amp;media=business_plan.png" width="120" height="120"></a>
+                <div class="p1"> Business plan </div>
+            </div>
+        </div>
+        <div class="wprock-img-zoom-hover" style="margin: 0% 25%">
+            <div class="wprock-img-zoom">
+                <a href="https://wiki.skemaconseil.fr/doku.php?id=etude_des_consommateurs" title="Etude des consommateurs">
+	            <img alt="Etude des consommateurs" src="/lib/exe/fetch.php?w=90&amp;h=90&amp;t=1617304919&amp;tok=38f7df&amp;media=etude_des_consommateurs.png" width="120" height="120"></a>
+                <div class="p1"> Etude des consommateurs </div>
+            </div>
+        </div>
+        <div class="wprock-img-zoom-hover" style="margin:0% 25%">
+            <div class="wprock-img-zoom">
+	        <a href="https://wiki.skemaconseil.fr/doku.php?id=focus_produit" title="Focus produit">
+		    <img alt="Focus produit" src="/lib/exe/fetch.php?w=90&amp;h=90&amp;t=1617304474&amp;tok=2b0a1e&amp;media=focus_produit.png" alt="focus_produit.png" width="120" height="120"></a>
+                <div class="p1"> Focus produit </div>
+            </div>
+        </div>
+</div>
+</div>
+
+<div id="Communiquerplusefficacement" class="tabcontent">
+<div class="container1">
+  <div class="wprock-img-zoom-hover" style="margin: 0% 25%">
+            <div class="wprock-img-zoom">
+                <a href="https://wiki.skemaconseil.fr/doku.php?id=plan_de_communication" title="Plan de communication">
+	            <img alt="plan de communication" src="/lib/exe/fetch.php?w=90&amp;h=90&amp;t=1617357957&amp;tok=0719c7&amp;media=plan_de_communication.png" width="120" height="120"></a>
+                <div class="p1"> Plan de communication </div>
+            </div>
+        </div>
+        <div class="wprock-img-zoom-hover" style="margin:0% 25%">
+            <div class="wprock-img-zoom">
+                <a href="https://wiki.skemaconseil.fr/doku.php?id=evaluation_publicitaire" title="Evaluation publicitaire">
+	            <img alt="Evaluation publicitaire" src="/lib/exe/fetch.php?w=90&amp;h=90&amp;t=1617357957&amp;tok=94a553&amp;media=evaluation_publicitaire.png" width="120" height="120"></a>
+                <div class="p1"> Evaluation publicitaire </div>
+            </div>
+        </div>
+        <div class="wprock-img-zoom-hover" style="margin: 0% 25%">
+            <div class="wprock-img-zoom">
+                <a href="https://wiki.skemaconseil.fr/doku.php?id=strategie_de_marketing_digital" title="Stratégie de marketing digital">
+	            <img alt="Stratégie de marketing digital" src="/lib/exe/fetch.php?w=90&amp;h=90&amp;t=1617357957&amp;tok=8cc97c&amp;media=strategie_de_marketing_digital.png" width="120" height="120"></a>
+                <div class="p1"> Stratégie de marketing digital </div>
+            </div>
+        </div>
+</div>
+</div>
+
+<div id="Ameliorersonexperienceclient" class="tabcontent">
+    <div class="container2">
+        <div class="wprock-img-zoom-hover" style="margin: 0% 25%">
+            <div class="wprock-img-zoom">
+                <a href="https://wiki.skemaconseil.fr/doku.php?id=etude_de_satisfaction" title="Etude de satisfaction">
+	            <img alt="Etude de satisfaction" src="/lib/exe/fetch.php?w=90&amp;h=90&amp;t=1617359172&amp;tok=e30206&amp;media=etude_de_satisfaction.png" width="120" height="120"></a>
+                <div class="p1"> Etude de satisfaction </div>
+            </div>
+        </div>
+        <div class="wprock-img-zoom-hover" style="margin:0% 25%">
+            <div class="wprock-img-zoom">
+                <a href="https://wiki.skemaconseil.fr/doku.php?id=client_mystere" title="Client mystère">
+	            <img alt="Client mystère" src="/lib/exe/fetch.php?w=90&amp;h=90&amp;t=1617358984&amp;tok=580025&amp;media=client_mystere.png" width="120" height="120"></a>
+                <div class="p1"> Client mystère </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Comprendresescollaborateurs" class="tabcontent">
+    <div class="container2">
+        <div class="wprock-img-zoom-hover" style="margin: 0% 25%">
+            <div class="wprock-img-zoom">
+                <a href="https://wiki.skemaconseil.fr/doku.php?id=enquete_marque_employeur" title="Enquête de marque employeur">
+	            <img alt="Enquête de marque employeur" src="/lib/exe/fetch.php?w=90&amp;h=90&amp;t=1617359917&amp;tok=30689d&amp;media=enquete_de_marque_employeur.png" alt="enquete_de_marque_employeur.png" width="120" height="120"></a>
+                <div class="p1"> Enquête de marque employeur </div>
+            </div>
+        </div>
+        <div class="wprock-img-zoom-hover" style="margin:0% 25%">
+            <div class="wprock-img-zoom">
+                <a href="https://wiki.skemaconseil.fr/doku.php?id=etude_de_satisfaction_des_collaborateurs" title="Etude de satisfaction des colaborateurs">
+	            <img alt="Etude de satisfaction des colaborateurs" src="/lib/exe/fetch.php?w=90&amp;h=90&amp;t=1617359917&amp;tok=11a0b7&amp;media=etude_de_satisfaction_des_collaborateurs.png" alt="etude_de_satisfaction_des_collaborateurs.png" width="120" height="120"></a>
+                <div class="p1"> Etude de satisfaction des collaborateurs </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Suivresonimagedemarque" class="tabcontent">
+    <div class="container3">
+        <div class="wprock-img-zoom-hover" style="margin: 0% 25%">
+            <div class="wprock-img-zoom">
+                <a href="https://wiki.skemaconseil.fr/doku.php?id=suivre_la_sante_globale_de_la_marque" title="Suivre la santé globale de la marque">
+	            <img alt="Suivre la santé globale de la marque" src="/lib/exe/fetch.php?w=90&amp;h=90&amp;t=1617360438&amp;tok=3c544d&amp;media=suivre_la_sante_globale_de_la_marque.png" alt="enquete_de_marque_employeur.png" width="120" height="120"></a>
+                <div class="p1"> Suivre la santé globale de la marque </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script> /*ready-to-use Javascript code found on internet*/
+function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+
+</html>
