@@ -1,0 +1,109 @@
+<html>
+
+<style>
+
+html,body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 1070px;
+}
+
+.h1 {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #424242;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 40vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+  }
+  
+  :hover {
+    flex: 7;
+  }
+
+.item-1 { 
+  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=presidence.jpg');
+  }
+ 
+.item-2 { 
+  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=shark.jpg');
+  }
+
+.item-3 { 
+  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=tresorerie.jpg');
+  }
+
+.item-4 { 
+  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=audit_qualite.jpg');
+  }
+
+.item-5 { 
+  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=marketing.jpg');
+  }
+
+.item-6 { 
+  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=kmsi.jpg');
+  }
+  
+.item-7 { 
+  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=rh.jpg');
+  }
+  
+.item-8 { 
+  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=international.jpg');
+  } 
+  
+</style>
+
+<div class="container">
+
+  <div class="gallery-wrap">
+    <div class="item item-1">
+      <p style="color:white; font-size:13px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px); font-family: Lucida Sans Unicode; display:flex;">PRESIDENCE</p>
+    </div>
+    <div class="item item-2">
+      <p style="color:white; font-size:13px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px); font-family: Lucida Sans Unicode; display:flex;">COMMERCIAUX</p>
+    </div>
+    <div class="item item-3">
+      <p style="color:white; font-size:13px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px); font-family: Lucida Sans Unicode; display:flex;">TRESORERIE</p>
+    </div>
+    <div class="item item-4">
+      <p style="color:white; font-size:12px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px); font-family: Lucida Sans Unicode; display:flex;">AUDIT&QUALITE</p>
+    </div>
+    <div class="item item-5">
+      <p style="color:white; font-size:13px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px); font-family: Lucida Sans Unicode; display:flex;">MARKETING</p>
+    </div>
+    <div class="item item-6">
+      <p style="color:white; font-size:13px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px); font-family: Lucida Sans Unicode; display:flex;">KMSI</p>
+    </div>
+    <div class="item item-7">
+      <p style="color:white; font-size:13px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px); font-family: Lucida Sans Unicode; display:flex;">RH</p>
+    </div>
+    <div class="item item-8">
+      <p style="color:white; font-size:12px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px);font-family: Lucida Sans Unicode;display:flex;">INTERNATIONAL</p>
+    </div>
+  </div>
+ </div>
+
+</html>
