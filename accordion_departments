@@ -8,9 +8,9 @@ html,body {
 }
 
 .container {
+  display: flex
   padding: 75px 0;
   margin: 0 auto;
-  width: 1070px;
 }
 
 .h1 {
@@ -37,73 +37,102 @@ html,body {
   background-repeat: none;
   transition: flex 0.8s ease;
   }
-  
-  :hover {
-    flex: 7;
-  }
 
 .item-1 { 
-  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=presidence.jpg');
+  background-color: #001a33;
   }
  
 .item-2 { 
-  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=shark.jpg');
+  background-color: #00264d;
   }
 
 .item-3 { 
-  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=tresorerie.jpg');
+  background-color: #003366;
   }
 
 .item-4 { 
-  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=audit_qualite.jpg');
+  background-color: #004080;
   }
 
 .item-5 { 
-  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=marketing.jpg');
+  background-color: #004d99;
   }
 
 .item-6 { 
-  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=kmsi.jpg');
+  background-color: #0059b3;
   }
   
 .item-7 { 
-  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=rh.jpg');
+  background-color: #0066cc;
   }
   
 .item-8 { 
-  background-image: url('https://wiki.skemaconseil.fr/lib/exe/fetch.php?media=international.jpg');
+  background-color: #0073e6;
   } 
+
+ .item:hover {
+   flex: 7;
+  }
   
+ .p {
+ color:white; 
+ font-size:13px; 
+ writing-mode:vertical-rl;
+ text-orientation:upright;
+ transform:translate(50%,25px);
+ font-family: Lucida Sans Unicode;
+ display:flex;
+ }
+
+ .a {
+    color:white;
+  }
+
 </style>
 
 <div class="container">
-
-  <div class="gallery-wrap">
-    <div class="item item-1">
-      <p style="color:white; font-size:13px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px); font-family: Lucida Sans Unicode; display:flex;">PRESIDENCE</p>
-    </div>
-    <div class="item item-2">
-      <p style="color:white; font-size:13px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px); font-family: Lucida Sans Unicode; display:flex;">COMMERCIAUX</p>
-    </div>
-    <div class="item item-3">
-      <p style="color:white; font-size:13px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px); font-family: Lucida Sans Unicode; display:flex;">TRESORERIE</p>
-    </div>
-    <div class="item item-4">
-      <p style="color:white; font-size:12px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px); font-family: Lucida Sans Unicode; display:flex;">AUDIT&QUALITE</p>
-    </div>
-    <div class="item item-5">
-      <p style="color:white; font-size:13px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px); font-family: Lucida Sans Unicode; display:flex;">MARKETING</p>
-    </div>
-    <div class="item item-6">
-      <p style="color:white; font-size:13px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px); font-family: Lucida Sans Unicode; display:flex;">KMSI</p>
-    </div>
-    <div class="item item-7">
-      <p style="color:white; font-size:13px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px); font-family: Lucida Sans Unicode; display:flex;">RH</p>
-    </div>
-    <div class="item item-8">
-      <p style="color:white; font-size:12px; writing-mode:vertical-rl; text-orientation:upright; transform:translate(50px,25px);font-family: Lucida Sans Unicode;display:flex;">INTERNATIONAL</p>
-    </div>
-  </div>
- </div>
+    <div class="gallery-wrap">
+        <a href="https://wiki.skemaconseil.fr/doku.php?id=presidence">
+        <div class="item item-1">
+            <div class="p"> PRESIDENCE</div>
+        </a>
+        </div>
+        <a href="https://wiki.skemaconseil.fr/doku.php?id=commerciaux">
+        <div class="item item-2">
+            <div class="p"> COMMERCIAUX</div>
+        </a>
+        </div>
+        <a href="https://wiki.skemaconseil.fr/doku.php?id=tresorerie">
+        <div class="item item-3">
+            <div class="p"> TRESORERIE</div>
+        </a>
+        </div>
+        <a href="https://wiki.skemaconseil.fr/doku.php?id=audit_et_qualite">
+        <div class="item item-4">
+            <div class="p"> AUDIT&QUALITE</div>
+        </a>
+        </div>
+        <a href="https://wiki.skemaconseil.fr/doku.php?id=marketing">
+        <div class="item item-5">
+            <div class="p"> MARKETING</div>
+        </a>
+        </div>
+        <a href="https://wiki.skemaconseil.fr/doku.php?id=kmsi">
+        <div class="item item-6">
+            <div class="p"> KMSI</div>
+        </a>
+        </div>
+        <a href="https://wiki.skemaconseil.fr/doku.php?id=ressources_humaines">
+        <div class="item item-7">
+            <div class="p"> RH</div>
+        </a>
+        </div>
+        <a href="https://wiki.skemaconseil.fr/doku.php?id=international">
+        <div class="item item-8">
+            <div class="p"> INTERNATIONAL</div>
+        </a>
+        </div>
+   </div>
+</div>
 
 </html>
